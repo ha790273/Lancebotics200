@@ -1440,3 +1440,11 @@ html {
 
 
 
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* Optional: prevents the image from breaking layout on smaller screens */
+  max-width: 100%; 
+  height: auto;
+}
