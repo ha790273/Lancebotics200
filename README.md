@@ -1,5 +1,8 @@
-# Lancebotics200
+# Lancebotics 200
 
-This is the new Official website for Lancebotics as of September 30th 2026
+This is the Official website for Lancebotics Robotics Team. 
 
-This website is not owned by the TDSB, sponsered nor endorsed. This is a webiste is run by students for students
+
+## Additional Information
+
+This website is not owned by the TDSB, sponsered nor endorsed. This is a website is run by a programmers in the club.
