@@ -13,6 +13,9 @@
 <! git add .
 git commit -m "Describe what you built or changed here"
 git push origin VTest
+
+
+
 >
 <!-- NAV -->
 <nav>
@@ -21,38 +24,55 @@ git push origin VTest
     <img src="media/logos/LanceBotics/LBLong.png" alt="LanceBotics Logo">
   </span></a>
   <ul class="nav-links">
+
+
+
     <li><a href="index.html" class="active">Home</a></li>
-    <li><a href="teams.html">Teams</a></li>
-    <li><a href="vex.html">VEX</a></li>
-    <li><a href="sponsors.html">Sponsors</a></li>
-    <li><a href="Awards.html">Awards</a></li>
-    <li><a href="contact.html" class="nav-cta">Contact</a></li>
+    <li><a href="html/teams.html">Teams</a></li>
+    <li><a href="html/vex.html">VEX</a></li>
+    <li><a href="html/sponsors.html">Sponsors</a></li>
+    <li><a href="html/Awards.html">Awards</a></li>
+    <li><a href="html/contact.html" class="nav-cta">Contact</a></li>
+
+    <li class="dropdown">
+      <a href="#" class="nav-link">
+        More <span class="arrow">▼</span>
+      </a>
+      <ul class="dropdown-content">
+        <li><a href="html/History.html">History</a></li>
+        <li><a href="html/AA.html">Archives</a></li>
+      </ul>
+    </li> 
+   
   </ul>
 </nav>
 
 
-<!-- HERO -->
-<section id="hero">
-  <div class="hero-content">
+<div class="video-background-container">
+  <!-- The Video element -->
+  <video autoplay loop muted playsinline class="background-video">
+    <source src="media/Test.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Content that goes on top -->
+  <div class="content-overlay">
     <div class="hero-badge">Leaside High School · LHS 200</div>
-
     <h1 class="hero-title">Lance<span>Botics</span></h1>
-
     <p class="hero-sub">
       Representing Toronto and Canada at the VEX World Championship. Building robots, inspiring futures, and driving STEM education in our community.
     </p>
-
     <div class="hero-buttons">
  
-      <a href="sponsors.html" class="btn-outline">Become a Sponsor</a>
+      <a href="html/sponsors.html" class="btn-outline">Become a Sponsor</a>
+      
     </div>
-  </div>
-
-  <a href="#about" class="hero-scroll">
+    <a href="#about" class="hero-scroll">
     <span>Scroll</span>
     <div class="scroll-arrow"></div>
   </a>
-</section>
+  </div>
+</div>
 
 
 
@@ -84,7 +104,7 @@ git push origin VTest
           <li>5+ consecutive years at the VEX World Championship</li>
         </ul>
 
-        <a href="teams.html" class="btn-primary" style="margin-top:28px; display:inline-block; color: var(--green-dark); background: var(--off-white); border: 2px solid var(--green);">
+        <a href="/html/teams.html" class="btn-primary" style="margin-top:28px; display:inline-block; color: var(--green-dark); background: var(--off-white); border: 2px solid var(--green);">
           Meet Our Teams →
         </a>
       </div>
@@ -129,17 +149,17 @@ git push origin VTest
         <h4>Navigate</h4>
         <ul>
 
-          <li><a href="teams.html">Teams</a></li>
-          <li><a href="vex.html">VEX</a></li>
-             <li><a href="Awards.html">Awards</a></li>
+          <li><a href="html/teams.html">Teams</a></li>
+          <li><a href="html/vex.html">VEX</a></li>
+             <li><a href="html/Awards.html">Awards</a></li>
         </ul>
       </div>
 
       <div class="footer-col">
         <h4>Support</h4>
         <ul>
-          <li><a href="sponsors.html">Sponsors</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="html/sponsors.html">Sponsors</a></li>
+          <li><a href="html/contact.html">Contact</a></li>
           <li><a href="mailto:LanceBotics@gmail.com">Email Us</a></li>
         </ul>
       </div>
