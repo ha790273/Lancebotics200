@@ -4,7 +4,7 @@ This is the Official website for Lancebotics Robotics Team.
 
 This website was inspired by the 2020 web archives of our previvous Lancebotics website and our captians encouragement to create a new website for Lancebotics.
 
-
+ 
 ## Legal
 
 This website is privately owned and operated by students of the robotics club. It is an independent project and is not owned, funded, sponsored, or endorsed by the Toronto District School Board (TDSB) or its affiliated schools.

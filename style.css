@@ -1505,3 +1505,35 @@ html {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/* Container must have a position context */
+.video-background-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Fills the whole screen */
+  overflow: hidden;
+}
+
+/* Make the video behave like background-size: cover */
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crucial: stretches/crops video without losing aspect ratio */
+  z-index: -1; /* Pushes the video behind everything else */
+}
+
+/* Ensure content sits beautifully on top */
+.content-overlay {
+  position: relative;
+  z-index: 1; /* Keeps text above the video */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4); /* Optional dark overlay to read text better */
+}
