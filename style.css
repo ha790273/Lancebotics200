@@ -1538,3 +1538,9 @@ html {
   background: rgba(0, 0, 0, 0.4); /* Optional dark overlay to read text better */
 }
 
+#imgRight {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  
+}
