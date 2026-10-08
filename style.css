@@ -345,7 +345,8 @@
 
 /* ── TEAMS ── */
 #teams {
-  background: linear-gradient(180deg, #3ff73f 0%, #3ebd3e 100%);
+    background: linear-gradient(180deg, #3ff73f 0%, #3ebd3e 100%);
+
 }
 
 .teams-grid {
