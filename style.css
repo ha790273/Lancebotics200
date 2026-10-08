@@ -345,7 +345,8 @@
 
 /* ── TEAMS ── */
 #teams {
-  background: linear-gradient(180deg, #3ff73f 0%, #3ebd3e 100%);
+    background: linear-gradient(180deg, #3ff73f 0%, #3ebd3e 100%);
+
 }
 
 .teams-grid {
@@ -1538,3 +1539,9 @@ html {
   background: rgba(0, 0, 0, 0.4); /* Optional dark overlay to read text better */
 }
 
+#imgRight {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  
+}
