@@ -258,6 +258,7 @@
       color: #111;
       margin-bottom: 16px;
     }
+    
 
     .section-title span { color: var(--green); }
 
@@ -268,6 +269,9 @@
       max-width: 560px;
       margin-bottom: 48px;
     }
+
+   
+
 
     /* ── ABOUT ── */
     #about { background: var(--off-white); }
@@ -430,7 +434,11 @@
   object-fit: cover;
   aspect-ratio: 4/3;
   box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+ 
+ 
 }
+
+
 
 .team-number {
   font-family: 'Montserrat', sans-serif;
@@ -1539,9 +1547,18 @@ html {
   background: rgba(0, 0, 0, 0.4); /* Optional dark overlay to read text better */
 }
 
-#imgRight {
-  display: flex;
-  margin: auto;
-  width: 50%;
-  
+
+/* Previous Seasons Section */
+
+
+.previous-season-title {
+  font-size: clamp(2rem, 2vw, 4rem);
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.previous-season-desc2 {
+  font-size: 1.05rem;
+  color:rgb(128, 128, 128);
+  line-height:1.8;
+  margin-bottom: 24px;
 }
