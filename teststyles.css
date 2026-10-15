@@ -18,7 +18,7 @@
   background-color: grey;
   border-radius: 10px;
   padding: 16px;
-  margin-bottom: 16px;
+  background-image: url('media/robot/robot1.jpeg');
 }
 
 .rb {
@@ -29,4 +29,42 @@
   text-decoration: none; /* Removes the underline */
   color: inherit;        /* Keeps your original text colors */
   display: block;        /* Ensures the link fills the area */
+}
+.section-title2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.15;
+  color: #ffffff;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.push-back-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;/* Full viewport height */
+  background-image: url('media/IMG_7790.jpeg');
+  background-size: cover;
+  background-position: center;
+
+
+}
+
+
+.push-back-info-container{
+  padding: 20px;
+}
+
+#pb-para{
+  margin-left: 16px;
+
+ 
+
+}
+
+.pb-heading {
+  font-size: 2rem;
+
 }
